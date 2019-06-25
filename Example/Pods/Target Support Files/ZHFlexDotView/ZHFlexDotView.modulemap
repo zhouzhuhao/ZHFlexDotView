@@ -1,0 +1,6 @@
+framework module ZHFlexDotView {
+  umbrella header "ZHFlexDotView-umbrella.h"
+
+  export *
+  module * { export * }
+}

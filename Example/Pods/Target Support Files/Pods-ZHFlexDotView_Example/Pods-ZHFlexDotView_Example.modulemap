@@ -1,0 +1,6 @@
+framework module Pods_ZHFlexDotView_Example {
+  umbrella header "Pods-ZHFlexDotView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
