@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ZHFlexDotView/Classes/**/*'
+  s.source_files = 'ZHFlexDotView/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'ZHFlexDotView' => ['ZHFlexDotView/Assets/*.png']

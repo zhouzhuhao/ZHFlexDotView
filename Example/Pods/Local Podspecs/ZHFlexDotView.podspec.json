@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "ZHFlexDotView/Classes/**/*",
+  "source_files": "ZHFlexDotView/Classes/**/*.{h,m}",
   "frameworks": "UIKit",
   "dependencies": {
     "FLEX": [
