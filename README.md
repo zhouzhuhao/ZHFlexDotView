@@ -20,6 +20,24 @@ it, simply add the following line to your Podfile:
 pod 'ZHFlexDotView'
 ```
 
+## Usage
+```Objective-C
+#pragma mark -DEBUG模式下才显示Flex,如果需要打包后的ipa也出现Flex,就需要在scheme中配置Archive时为debug
+#if DEBUG
+	NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
+	for (UIWindow *win in frontToBackWindows) {
+		if (win.windowLevel == UIWindowLevelNormal) {
+			self.zhView = [[ZHFlexDotView alloc] initWithFrame:CGRectMake(0, 200, 60, 60)];
+			[win addSubview:self.zhView];
+			break;
+		}
+	}
+#endif
+```
+releas模式下，去除Flex代码
+
+
+
 ## Author
 
 zhouzhuhao, johnzhuhaochow@gmail.com
