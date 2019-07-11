@@ -40,7 +40,7 @@ Release模式下，去除Flex代码
 
 ## Author
 
-zhouzhuhao, johnzhuhaochow@gmail.com
+johnzhuhaochow@gmail.com
 
 ## License
 
