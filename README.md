@@ -34,8 +34,8 @@ pod 'ZHFlexDotView'
 	}
 #endif
 ```
-releas模式下，去除Flex代码
-
+Release模式下，去除Flex代码
+![image](https://github.com/zhouzhuhao/ZHFlexDotView/blob/master/images/WeChat8b62ad6f28a90d4fba0f23ea455f566e.png)
 
 
 ## Author
