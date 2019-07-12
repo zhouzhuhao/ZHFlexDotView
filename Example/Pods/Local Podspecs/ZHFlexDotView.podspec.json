@@ -1,8 +1,8 @@
 {
   "name": "ZHFlexDotView",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "summary": "Quick show flex tool",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "Flex 小浮窗",
   "homepage": "https://github.com/zhouzhuhao/ZHFlexDotView",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/zhouzhuhao/ZHFlexDotView.git",
-    "tag": "1.0.0"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"
