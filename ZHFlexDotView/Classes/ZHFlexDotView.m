@@ -7,7 +7,9 @@
 
 #import "ZHFlexDotView.h"
 
+#if DEBUG
 #import <FLEX/FLEX.h>
+#endif
 
 #define WIDTH self.frame.size.width
 #define HEIGHT self.frame.size.height
@@ -81,13 +83,12 @@
 
 - (void)cBtnClicked{
 	
-//	if (self.FlexBtnClickedBlock) {
-//		self.FlexBtnClickedBlock();
-//	}
 	
 	NSLog(@"tap tap tap");
 	self.alpha = normalAlpha;
+#if DEBUG
 	[[FLEXManager sharedManager] showExplorer];
+#endif
 		//拉出悬浮窗
 	if (self.center.x == 0) {
 		self.center = CGPointMake(WIDTH/2, self.center.y);

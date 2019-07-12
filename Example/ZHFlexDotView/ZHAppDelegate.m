@@ -7,12 +7,30 @@
 //
 
 #import "ZHAppDelegate.h"
+#import <ZHFlexDotView/ZHFlexDotView-umbrella.h>
+
+@interface ZHAppDelegate ()
+@property (nonatomic,strong) ZHFlexDotView *dotView;
+@end
 
 @implementation ZHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+	
+#pragma mark -DEBUG模式下才显示Flex,如果需要打包后的ipa也出现Flex,就需要在scheme中配置Archive时为debug
+#if DEBUG
+	NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
+	for (UIWindow *win in frontToBackWindows) {
+		if (win.windowLevel == UIWindowLevelNormal) {
+			self.dotView = [[ZHFlexDotView alloc] initWithFrame:CGRectMake(0, 60, 80, 80)];
+			[win addSubview:self.dotView];
+			break;
+		}
+	}
+#endif
+	
     return YES;
 }
 

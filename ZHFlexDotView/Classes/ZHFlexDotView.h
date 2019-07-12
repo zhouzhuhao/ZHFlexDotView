@@ -11,7 +11,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZHFlexDotView : UIView
 
-//@property (nonatomic,copy) void(^FlexBtnClickedBlock)(void);
 @property (nonatomic,strong) UIButton *cBtn;
 
 @end
