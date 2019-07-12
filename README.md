@@ -1,9 +1,5 @@
 # ZHFlexDotView
 
-[![CI Status](https://img.shields.io/travis/zhouzhuhao/ZHFlexDotView.svg?style=flat)](https://travis-ci.org/zhouzhuhao/ZHFlexDotView)
-[![Version](https://img.shields.io/cocoapods/v/ZHFlexDotView.svg?style=flat)](https://cocoapods.org/pods/ZHFlexDotView)
-[![License](https://img.shields.io/cocoapods/l/ZHFlexDotView.svg?style=flat)](https://cocoapods.org/pods/ZHFlexDotView)
-[![Platform](https://img.shields.io/cocoapods/p/ZHFlexDotView.svg?style=flat)](https://cocoapods.org/pods/ZHFlexDotView)
 
 ## Example
 
