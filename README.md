@@ -24,8 +24,8 @@ pod 'ZHFlexDotView'
 	NSEnumerator *frontToBackWindows = [[[UIApplication sharedApplication] windows] reverseObjectEnumerator];
 	for (UIWindow *win in frontToBackWindows) {
 		if (win.windowLevel == UIWindowLevelNormal) {
-			self.zhView = [[ZHFlexDotView alloc] initWithFrame:CGRectMake(0, 200, 60, 60)];
-			[win addSubview:self.zhView];
+			ZHFlexDotView *dotView = [[ZHFlexDotView alloc] initWithFrame:CGRectMake(0, 200, 60, 60)];
+			[win addSubview:dotView];
 			break;
 		}
 	}
