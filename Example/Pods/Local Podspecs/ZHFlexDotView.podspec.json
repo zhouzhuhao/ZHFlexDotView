@@ -1,8 +1,8 @@
 {
   "name": "ZHFlexDotView",
   "version": "1.0.3",
-  "summary": "Quick show flex tool",
-  "description": "Flex 小浮窗",
+  "summary": "flex tool",
+  "description": "Flex 小浮窗,",
   "homepage": "https://github.com/zhouzhuhao/ZHFlexDotView",
   "license": {
     "type": "MIT",
@@ -23,6 +23,9 @@
   "dependencies": {
     "FLEX": [
       "~> 2.4.0"
+    ],
+    "Masonry": [
+
     ]
   }
 }

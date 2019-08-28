@@ -40,6 +40,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'UIKit'
 
   s.dependency 'FLEX', '~> 2.4.0'
+  s.dependency 'Masonry'
   # s.dependency 'AFNetworking', '~> 2.3'
   
   # release模式下，不包编译Flex文件设置

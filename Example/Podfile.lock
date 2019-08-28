@@ -1,7 +1,9 @@
 PODS:
   - FLEX (2.4.0)
+  - Masonry (1.1.0)
   - ZHFlexDotView (1.0.3):
     - FLEX (~> 2.4.0)
+    - Masonry
 
 DEPENDENCIES:
   - ZHFlexDotView (from `../`)
@@ -9,6 +11,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FLEX
+    - Masonry
 
 EXTERNAL SOURCES:
   ZHFlexDotView:
@@ -16,7 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
-  ZHFlexDotView: e23da5838054376bc1e8640e13399f996eb8231d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ZHFlexDotView: 5390adc6d1ec7da957aa5db40f9be1ae0a305b16
 
 PODFILE CHECKSUM: 2c6a2b353cebca9db822921cbe41545b8b617c65
 

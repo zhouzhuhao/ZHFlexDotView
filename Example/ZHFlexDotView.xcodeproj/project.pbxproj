@@ -65,7 +65,7 @@
 		A9FDB51B670AAC6C20AFB939 /* Pods-ZHFlexDotView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHFlexDotView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHFlexDotView_Example/Pods-ZHFlexDotView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD1A27F04F57A0A9A3F01390 /* Pods_ZHFlexDotView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHFlexDotView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D24A1DCF38BDCE0CEC5368C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D55FF5A059115FF72BA73AE2 /* ZHFlexDotView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHFlexDotView.podspec; path = ../ZHFlexDotView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D55FF5A059115FF72BA73AE2 /* ZHFlexDotView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = ZHFlexDotView.podspec; path = ../ZHFlexDotView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED0766047892AD026F6E59EF /* Pods-ZHFlexDotView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHFlexDotView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHFlexDotView_Example/Pods-ZHFlexDotView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,11 +306,13 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZHFlexDotView_Example/Pods-ZHFlexDotView_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/ZHFlexDotView/ZHFlexDotView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHFlexDotView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

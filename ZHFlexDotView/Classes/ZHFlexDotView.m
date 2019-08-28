@@ -7,6 +7,8 @@
 
 #import "ZHFlexDotView.h"
 
+#import <Masonry/Masonry.h>
+
 #if DEBUG
 #import <FLEX/FLEX.h>
 #endif
@@ -19,8 +21,8 @@
 #define animateDuration 0.3       //位置改变动画时间
 #define showDuration 0.1          //展开动画时间
 #define statusChangeDuration  3.0    //状态改变时间
-#define normalAlpha  0.8           //正常状态时背景alpha值
-#define sleepAlpha  0.3           //隐藏到边缘时的背景alpha值
+#define normalAlpha  1.0           //正常状态时背景alpha值
+#define sleepAlpha  0.5           //隐藏到边缘时的背景alpha值
 #define myBorderWidth 1.0         //外框宽度
 #define marginWith  5             //间隔
 
