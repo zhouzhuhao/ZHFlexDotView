@@ -33,6 +33,10 @@ pod 'ZHFlexDotView'
 Release模式下，去除Flex代码
 ![image](https://github.com/zhouzhuhao/ZHFlexDotView/blob/master/images/WeChat8b62ad6f28a90d4fba0f23ea455f566e.png)
 
+基于FLex可以快速查看UI布局以及应用内的网络请求
+![511623841999_ pic_hd](https://user-images.githubusercontent.com/11433842/122209444-1b862a00-ced7-11eb-980d-778dd9084de2.jpg)
+
+
 
 ## Author
 
